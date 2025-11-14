@@ -1,0 +1,50 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-family: sans-serif;
+    margin-top: 40px;
+  }
+  
+  .status {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 6px;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px solid #333;
+    background: #f8f8f8;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .square:hover {
+    background: #e5e5e5;
+  }
+  
+  .reset {
+    padding: 8px 14px;
+    font-size: 16px;
+    border: 1px solid #333;
+    cursor: pointer;
+    background: #fff;
+  }
+  
+  .reset:hover {
+    background: #eee;
+  }
+  
